@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
-
 import data from "../data/data.json";
-
 import SlideshowModal from "./SlideshowModal";
-import varlogo from "../assets/logo.png"
 
 export interface DocumentData {
   id: string;
@@ -163,7 +160,8 @@ export default function Home() {
           className="nav-brand"
           onClick={(e) => handleNavClick(e, "hero")}
         >
-          <img src={varlogo} alt={appData.projectTitle} />
+          <img src="logo.png"
+          alt={appData.projectTitle} />
         </a>
 
         <button
