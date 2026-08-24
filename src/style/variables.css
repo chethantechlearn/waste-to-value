@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --clr-bg-dark: #031c15;
+  --clr-surface-base: #064e3b;
+  --clr-primary: #10b981;
+  --clr-accent-emerald: #34d399;
+  --clr-accent-gold: #f59e0b;
+  --clr-text-main: #f3f4f6;
+  --clr-text-muted: #a7f3d0;
+  --clr-white: #ffffff;
+  --clr-black: #000000;
+
+
+  /* Surfaces & Glass Card Backgrounds */
+  --clr-surface-card: color-mix(in srgb, var(--clr-surface-base) 40%, transparent);
+  --clr-surface-process: color-mix(in srgb, var(--clr-bg-dark) 80%, var(--clr-surface-base));
+  --clr-nav-bg: color-mix(in srgb, var(--clr-bg-dark) 90%, transparent);
+  --clr-nav-mobile-bg: color-mix(in srgb, var(--clr-bg-dark) 98%, transparent);
+  --clr-caption-bg: color-mix(in srgb, var(--clr-bg-dark) 88%, transparent);
+  --clr-badge-bg: color-mix(in srgb, var(--clr-primary) 15%, transparent);
+
+  /* Borders */
+  --clr-border-card: color-mix(in srgb, var(--clr-accent-emerald) 20%, transparent);
+  --clr-border-card-hover: color-mix(in srgb, var(--clr-accent-emerald) 50%, transparent);
+
+  /* Dynamic Gradients */
+  --clr-hero-gradient: linear-gradient(
+    180deg, 
+    color-mix(in srgb, var(--clr-bg-dark) 75%, transparent) 0%, 
+    color-mix(in srgb, var(--clr-bg-dark) 92%, transparent) 100%
+  );
+  --clr-title-gradient: linear-gradient(135deg, var(--clr-white) 0%, var(--clr-text-muted) 100%);
+  --clr-shadow-card: color-mix(in srgb, var(--clr-black) 40%, transparent);
+
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+
+  --fs-hero-title: clamp(3rem, 7vw, 5rem);
+  --fs-h2: 2.4rem;
+  --fs-h3: 1.3rem;
+  --fs-h4: 1.05rem;
+  --fs-body-lg: 1.25rem;
+  --fs-body-md: 1.05rem;
+  --fs-body-base: 0.95rem;
+  --fs-body-sm: 0.85rem;
+  --fs-caption: 0.75rem;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+
+  --lh-tight: 1.1;
+  --lh-snug: 1.45;
+  --lh-normal: 1.6;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  --transition-fast: 0.2s ease;
+  --transition-smooth: 0.35s cubic-bezier(0.215, 0.61, 0.355, 1);
+}

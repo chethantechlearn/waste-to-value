@@ -1,0 +1,253 @@
+{
+  "projectTitle": "WASTE TO VALUE",
+  "tagline": "Circular Economy Solutions for Sustainable Agriculture",
+  "subtitle": "Transforming Organic Market Waste into High-Value Fertilizer Pellets",
+  "heroBgImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000&auto=format&fit=crop",
+  "sections": [
+    {
+      "id": "hazards",
+      "badge": "Problem Statement",
+      "heading": "Organic Waste Hazards",
+      "navTitle": "Waste Hazards",
+      "subHeading": "Environmental & Municipal Challenges in Open Markets",
+      "metrics": [
+        {
+          "value": "50–70%",
+          "label": "Organic Share of Municipal Waste in Developing Nations",
+          "sourceName": "World Bank (What a Waste 2.0)",
+          "sourceUrl": "https://datatopics.worldbank.org/what-a-waste/"
+        },
+        {
+          "value": "28x",
+          "label": "Methane Global Warming Potential vs CO2 (100-yr)",
+          "sourceName": "IPCC Fifth Assessment Report (AR5)",
+          "sourceUrl": "https://www.ipcc.ch/assessment-report/ar5/"
+        },
+        {
+          "value": "1.6 Gt",
+          "label": "Global Food Waste CO2 Equivalent Emissions Annually",
+          "sourceName": "UN FAO Food Loss Report",
+          "sourceUrl": "https://www.fao.org/food-loss-and-food-waste/en/"
+        }
+      ],
+      "cards": [
+        {
+          "title": "Methane & GHG Emissions",
+          "description": "Anaerobic decomposition of untreated organic waste in open landfills generates massive methane spikes, accelerating climate degradation."
+        },
+        {
+          "title": "Groundwater Leachate",
+          "description": "Rainfall washes toxic decomposing fluids into soil matrices, contaminating local freshwater aquifers and irrigation channels."
+        },
+        {
+          "title": "Public Health Risks",
+          "description": "Open decomposition sites attract flies, rodents, and bacteria, increasing disease vectors near high-density market zones."
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1000&auto=format&fit=crop",
+          "title": "Discarded Market Produce",
+          "caption": "Shows piles of rotting fruits and vegetable leftovers at open market stalls, illustrating the raw organic waste burden before segregation."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?q=80&w=1000&auto=format&fit=crop",
+          "title": "Decomposing Food Scrap Heap",
+          "caption": "Highlights wet organic biomass rotting anaerobically, generating severe odor, breeding vectors, and potent methane emissions."
+        }
+      ]
+    },
+    {
+      "id": "pellets",
+      "badge": "The Innovation",
+      "heading": "Organic Plant Pellets",
+      "navTitle": "Plant Pellets",
+      "subHeading": "Value-Added Bio-Fertilizers Engineered for Soil Health",
+      "metrics": [
+        {
+          "value": "100%",
+          "label": "Organic & Chemical-Free Input",
+          "sourceName": "USDA Organic Standards",
+          "sourceUrl": "https://www.usda.gov/topics/organic"
+        },
+        {
+          "value": "30–50%",
+          "label": "Increased Soil Water-Holding Capacity",
+          "sourceName": "NIH / Bioresource Tech Study",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/"
+        },
+        {
+          "value": "2.5:1:2",
+          "label": "Typical NPK Ratio in Market Waste Compost",
+          "sourceName": "FAO Organic Amendments Guide",
+          "sourceUrl": "https://www.fao.org/soils-portal/en/"
+        }
+      ],
+      "cards": [
+        {
+          "title": "Nutrient Densification",
+          "description": "Compacting dehydrated organic waste into uniform pellets concentrated with Nitrogen, Phosphorus, and Potassium (NPK)."
+        },
+        {
+          "title": "Slow-Release Mechanism",
+          "description": "Provides steady, long-term soil feeding preventing nutrient runoff caused by chemical fertilizers."
+        },
+        {
+          "title": "Soil Microbe Boost",
+          "description": "Restores living organic matter and microbial biodiversity to depleted agricultural soils."
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?q=80&w=1000&auto=format&fit=crop",
+          "title": "Compressed Bio-Fertilizer Granules",
+          "caption": "Close-up of actual organic fertilizer pellets, showcasing uniform granule structure designed for easy broadcast and soil blending."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=1000&auto=format&fit=crop",
+          "title": "Enriched Agricultural Soil",
+          "caption": "Demonstrates rich, moisture-retaining soil fed by organic matter, supporting resilient root establishment and microbial health."
+        }
+      ]
+    },
+    {
+      "id": "pipeline",
+      "badge": "Conversion Process",
+      "heading": "7-Step Conversion Pipeline",
+      "navTitle": "Conversion Pipeline",
+      "subHeading": "End-to-End Waste Transformation Workflow",
+      "processSteps": [
+        { "step": "01", "title": "Segregation", "desc": "Sorting high-grade organic vegetable and fruit waste at source markets." },
+        { "step": "02", "title": "Shredding", "desc": "Mechanical reduction of raw material size for uniform processing." },
+        { "step": "03", "title": "Dehydration", "desc": "Solar-thermal moisture extraction to reach target humidity levels." },
+        { "step": "04", "title": "Inoculation", "desc": "Adding beneficial microbial cultures to accelerate stabilization." },
+        { "step": "05", "title": "Pelletization", "desc": "Extruding stabilized dry matter under high pressure into dense pellets." },
+        { "step": "06", "title": "Cooling & Sifting", "desc": "Thermal cooling and screening for consistent pellet particle size." },
+        { "step": "07", "title": "Eco-Packaging", "desc": "Sealing finished pellets into biodegradable, moisture-proof sacks." }
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1000&auto=format&fit=crop",
+          "title": "Industrial Extrusion & Milling",
+          "caption": "Features high-performance agricultural machinery performing mechanical shredding and pellet formation."
+        }
+      ]
+    },
+    {
+      "id": "reach",
+      "badge": "Market & Distribution",
+      "heading": "Market Reach & Segment",
+      "navTitle": "Market Reach",
+      "subHeading": "Connecting Urban Waste Generators to Agricultural Buyers",
+      "cards": [
+        {
+          "title": "Commercial Agribusinesses",
+          "description": "Bulk pellet supply contracts for large-scale organic tea, coffee, and fruit plantations."
+        },
+        {
+          "title": "Urban Horticulture & Nurseries",
+          "description": "Retail consumer packaging targeted at urban gardeners, landscaping, and commercial greenhouses."
+        },
+        {
+          "title": "Municipal Partnerships",
+          "description": "Contractual waste collection arrangements with city councils to divert market organics."
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1000&auto=format&fit=crop",
+          "title": "Commercial Crop Plantation",
+          "caption": "Illustrates vast farmland fields representing key B2B agribusiness targets for large-scale pellet soil conditioning."
+        }
+      ]
+    },
+    {
+      "id": "monetization",
+      "badge": "Financial Model",
+      "heading": "Dual Monetization Strategy",
+      "navTitle": "Monetization Strategy",
+      "subHeading": "Capitalizing on Both Sides of the Waste Value Chain",
+      "metrics": [
+        {
+          "value": "$25–$60",
+          "label": "Avg Tipping Fee per Ton Received (Upstream)",
+          "sourceName": "Solid Waste Association (SWANA)",
+          "sourceUrl": "https://swana.org/"
+        },
+        {
+          "value": "$150–$300",
+          "label": "Wholesale Price per Ton Organic Pellets (Downstream)",
+          "sourceName": "IFDC Organic Market Index",
+          "sourceUrl": "https://ifdc.org/"
+        },
+        {
+          "value": "1.5–3 yrs",
+          "label": "Typical Payback Period for Decentralized Processing Units",
+          "sourceName": "UNIDO Waste-to-Energy Models",
+          "sourceUrl": "https://www.unido.org/"
+        }
+      ],
+      "cards": [
+        {
+          "title": "Gate & Tipping Fees (Upstream)",
+          "description": "Charging municipalities and market vendors for compliant, sustainable waste disposal."
+        },
+        {
+          "title": "Pellet Sales (Downstream)",
+          "description": "Direct-to-farm and B2B wholesale revenue from premium organic bio-fertilizer sales."
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1000&auto=format&fit=crop",
+          "title": "Circular Cash-Flow Operations",
+          "caption": "Represents financial growth and dual revenue streams balancing municipal service tipping fees against commercial product sales."
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "badge": "Sustainability Metrics",
+      "heading": "Value Creation & Impact",
+      "navTitle": "Value & Impact",
+      "subHeading": "Quantifiable Ecological and Economic Outcomes",
+      "metrics": [
+        {
+          "value": "0.5–0.8 t",
+          "label": "CO2-eq Avoided per Ton Organic Waste Composted/Pelletized",
+          "sourceName": "US EPA WARM Model",
+          "sourceUrl": "https://www.epa.gov/warm"
+        },
+        {
+          "value": "75–85%",
+          "label": "Landfill Volume Diversion for Market Organics",
+          "sourceName": "UN-Habitat Waste Wise Cities",
+          "sourceUrl": "https://unhabitat.org/waste-wise-cities"
+        },
+        {
+          "value": "+15–25%",
+          "label": "Yield Gain in Soil-Depleted Organic Farming",
+          "sourceName": "Nature Sustainability Journal",
+          "sourceUrl": "https://www.nature.com/natsustain/"
+        }
+      ],
+      "cards": [
+        {
+          "title": "Circular Economy Closure",
+          "description": "Transforms potential urban pollutants back into essential agricultural inputs."
+        },
+        {
+          "title": "Landfill Space Preservation",
+          "description": "Diverts high-volume wet waste, significantly extending municipal landfill lifespans."
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1615811361523-6bd03d7748e7?q=80&w=1000&auto=format&fit=crop",
+          "title": "Sustainable Harvest Yields",
+          "caption": "Captures fresh, healthy agricultural harvest grown in soils revitalized by circular organic nutrients."
+        }
+      ]
+    }
+  ]
+}
