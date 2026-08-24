@@ -42,13 +42,22 @@ body {
 }
 
 .nav-brand {
-  font-family: var(--font-heading);
-  font-size: var(--fs-h3);
-  font-weight: var(--fw-extrabold);
-  color: var(--clr-accent-emerald);
-  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
   text-decoration: none;
   cursor: pointer;
+  height: 100%;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+.nav-brand img {
+  height: 52px !important; 
+  width: auto !important;
+  max-width: none !important;
+  object-fit: contain;
+  display: block;
+  filter: brightness(0) invert(1);
 }
 
 .nav-links {

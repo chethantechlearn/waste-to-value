@@ -3,6 +3,15 @@
   "tagline": "Circular Economy Solutions for Sustainable Agriculture",
   "subtitle": "Transforming Organic Market Waste into High-Value Fertilizer Pellets",
   "heroBgImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000&auto=format&fit=crop",
+  "documents": [
+    {
+      "id": "pptx-main",
+      "title": "Official Seminar Presentation (PPTX)",
+      "filename": "WASTE-TO-VALUE.pptx",
+      "path": "public/docs/WASTE-TO-VALUE.pptx",
+      "description": "Complete slide deck covering the 12-step manufacturing pathway, target markets, dual revenue model, and final pitch."
+    }
+  ],
   "sections": [
     {
       "id": "hazards",
@@ -63,26 +72,6 @@
       "heading": "Organic Plant Pellets",
       "navTitle": "Plant Pellets",
       "subHeading": "Value-Added Bio-Fertilizers Engineered for Soil Health",
-      "metrics": [
-        {
-          "value": "100%",
-          "label": "Organic & Chemical-Free Input",
-          "sourceName": "USDA Organic Standards",
-          "sourceUrl": "https://www.usda.gov/topics/organic"
-        },
-        {
-          "value": "30–50%",
-          "label": "Increased Soil Water-Holding Capacity",
-          "sourceName": "NIH / Bioresource Tech Study",
-          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/"
-        },
-        {
-          "value": "2.5:1:2",
-          "label": "Typical NPK Ratio in Market Waste Compost",
-          "sourceName": "FAO Organic Amendments Guide",
-          "sourceUrl": "https://www.fao.org/soils-portal/en/"
-        }
-      ],
       "cards": [
         {
           "title": "Nutrient Densification",
@@ -113,17 +102,40 @@
     {
       "id": "pipeline",
       "badge": "Conversion Process",
-      "heading": "7-Step Conversion Pipeline",
+      "heading": "06-Step Conversion Pipeline",
       "navTitle": "Conversion Pipeline",
       "subHeading": "End-to-End Waste Transformation Workflow",
       "processSteps": [
-        { "step": "01", "title": "Segregation", "desc": "Sorting high-grade organic vegetable and fruit waste at source markets." },
-        { "step": "02", "title": "Shredding", "desc": "Mechanical reduction of raw material size for uniform processing." },
-        { "step": "03", "title": "Dehydration", "desc": "Solar-thermal moisture extraction to reach target humidity levels." },
-        { "step": "04", "title": "Inoculation", "desc": "Adding beneficial microbial cultures to accelerate stabilization." },
-        { "step": "05", "title": "Pelletization", "desc": "Extruding stabilized dry matter under high pressure into dense pellets." },
-        { "step": "06", "title": "Cooling & Sifting", "desc": "Thermal cooling and screening for consistent pellet particle size." },
-        { "step": "07", "title": "Eco-Packaging", "desc": "Sealing finished pellets into biodegradable, moisture-proof sacks." }
+        {
+          "step": "01",
+          "title": "Collection & Segregation",
+          "desc": "Sourcing clean vegetable waste from hotels and markets."
+        },
+        {
+          "step": "02",
+          "title": "Size Reduction",
+          "desc": "Shredding and chopping to increase surface area and drying efficiency."
+        },
+        {
+          "step": "03",
+          "title": "Dehydration",
+          "desc": "Removing excess moisture using solar, tray, or hot-air dryers."
+        },
+        {
+          "step": "04",
+          "title": "Grinding & Formulation",
+          "desc": "Pulverizing into powder and formulating for nutrient consistency."
+        },
+        {
+          "step": "05",
+          "title": "Quality Testing",
+          "desc": "Testing for NPK, organic carbon, pH, heavy metals, and physical strength."
+        },
+        {
+          "step": "06",
+          "title": "Plant Testing & Packaging",
+          "desc": "Conducting growth trials and sealing into moisture-resistant packages (1kg to 25kg)."
+        }
       ],
       "images": [
         {
@@ -167,26 +179,6 @@
       "heading": "Dual Monetization Strategy",
       "navTitle": "Monetization Strategy",
       "subHeading": "Capitalizing on Both Sides of the Waste Value Chain",
-      "metrics": [
-        {
-          "value": "$25–$60",
-          "label": "Avg Tipping Fee per Ton Received (Upstream)",
-          "sourceName": "Solid Waste Association (SWANA)",
-          "sourceUrl": "https://swana.org/"
-        },
-        {
-          "value": "$150–$300",
-          "label": "Wholesale Price per Ton Organic Pellets (Downstream)",
-          "sourceName": "IFDC Organic Market Index",
-          "sourceUrl": "https://ifdc.org/"
-        },
-        {
-          "value": "1.5–3 yrs",
-          "label": "Typical Payback Period for Decentralized Processing Units",
-          "sourceName": "UNIDO Waste-to-Energy Models",
-          "sourceUrl": "https://www.unido.org/"
-        }
-      ],
       "cards": [
         {
           "title": "Gate & Tipping Fees (Upstream)",
@@ -211,26 +203,6 @@
       "heading": "Value Creation & Impact",
       "navTitle": "Value & Impact",
       "subHeading": "Quantifiable Ecological and Economic Outcomes",
-      "metrics": [
-        {
-          "value": "0.5–0.8 t",
-          "label": "CO2-eq Avoided per Ton Organic Waste Composted/Pelletized",
-          "sourceName": "US EPA WARM Model",
-          "sourceUrl": "https://www.epa.gov/warm"
-        },
-        {
-          "value": "75–85%",
-          "label": "Landfill Volume Diversion for Market Organics",
-          "sourceName": "UN-Habitat Waste Wise Cities",
-          "sourceUrl": "https://unhabitat.org/waste-wise-cities"
-        },
-        {
-          "value": "+15–25%",
-          "label": "Yield Gain in Soil-Depleted Organic Farming",
-          "sourceName": "Nature Sustainability Journal",
-          "sourceUrl": "https://www.nature.com/natsustain/"
-        }
-      ],
       "cards": [
         {
           "title": "Circular Economy Closure",

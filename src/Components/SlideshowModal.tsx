@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom';
+import React, { useState, useEffect } from "react";
+import ReactDOM from "react-dom";
 
 interface SlideshowModalProps {
   isOpen: boolean;
@@ -7,7 +7,11 @@ interface SlideshowModalProps {
   sections: any[];
 }
 
-export default function SlideshowModal({ isOpen, onClose, sections }: SlideshowModalProps) {
+export default function SlideshowModal({
+  isOpen,
+  onClose,
+  sections,
+}: SlideshowModalProps) {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   useEffect(() => {
@@ -18,19 +22,19 @@ export default function SlideshowModal({ isOpen, onClose, sections }: SlideshowM
     if (!isOpen) return;
 
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'ArrowRight' || e.key === ' ') {
+      if (e.key === "ArrowRight" || e.key === " ") {
         e.preventDefault();
         setCurrentIndex((prev) => Math.min(prev + 1, sections.length - 1));
-      } else if (e.key === 'ArrowLeft') {
+      } else if (e.key === "ArrowLeft") {
         e.preventDefault();
         setCurrentIndex((prev) => Math.max(prev - 1, 0));
-      } else if (e.key === 'Escape') {
+      } else if (e.key === "Escape") {
         onClose();
       }
     };
 
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
   }, [isOpen, sections.length, onClose]);
 
   if (!isOpen || !sections || sections.length === 0) return null;
@@ -44,14 +48,20 @@ export default function SlideshowModal({ isOpen, onClose, sections }: SlideshowM
           <span className="slideshow-counter">
             Slide {currentIndex + 1} of {sections.length}
           </span>
-          <button className="slideshow-close-btn" onClick={onClose} aria-label="Close presentation">
+          <button
+            className="slideshow-close-btn"
+            onClick={onClose}
+            aria-label="Close presentation"
+          >
             ✕
           </button>
         </div>
 
         <div className="slideshow-body">
           <div className="slideshow-content-card">
-            {currentSection.badge && <span className="section-badge">{currentSection.badge}</span>}
+            {currentSection.badge && (
+              <span className="section-badge">{currentSection.badge}</span>
+            )}
             <h2 className="section-heading">{currentSection.heading}</h2>
             <p className="section-subheading">{currentSection.subHeading}</p>
 
@@ -110,6 +120,6 @@ export default function SlideshowModal({ isOpen, onClose, sections }: SlideshowM
         </div>
       </div>
     </div>,
-    document.body
+    document.body,
   );
 }
