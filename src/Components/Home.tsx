@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import data from "../data/data.json";
 
 import SlideshowModal from "./SlideshowModal";
+import logo from "../assets/logo.png"
 
 export interface DocumentData {
   id: string;
@@ -162,7 +163,7 @@ export default function Home() {
           className="nav-brand"
           onClick={(e) => handleNavClick(e, "hero")}
         >
-          <img src="public/logo.png" alt={appData.projectTitle} />
+          <img src="../assets/logo.png" alt={appData.projectTitle} />
         </a>
 
         <button
