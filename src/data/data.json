@@ -19,26 +19,6 @@
       "heading": "Organic Waste Hazards",
       "navTitle": "Waste Hazards",
       "subHeading": "Environmental & Municipal Challenges in Open Markets",
-      "metrics": [
-        {
-          "value": "50–70%",
-          "label": "Organic Share of Municipal Waste in Developing Nations",
-          "sourceName": "World Bank (What a Waste 2.0)",
-          "sourceUrl": "https://datatopics.worldbank.org/what-a-waste/"
-        },
-        {
-          "value": "28x",
-          "label": "Methane Global Warming Potential vs CO2 (100-yr)",
-          "sourceName": "IPCC Fifth Assessment Report (AR5)",
-          "sourceUrl": "https://www.ipcc.ch/assessment-report/ar5/"
-        },
-        {
-          "value": "1.6 Gt",
-          "label": "Global Food Waste CO2 Equivalent Emissions Annually",
-          "sourceName": "UN FAO Food Loss Report",
-          "sourceUrl": "https://www.fao.org/food-loss-and-food-waste/en/"
-        }
-      ],
       "cards": [
         {
           "title": "Methane & GHG Emissions",
@@ -55,14 +35,9 @@
       ],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1000&auto=format&fit=crop",
+          "url": "https://images.unsplash.com/photo-1614272527834-e95f090a34c5?q=80&w=1000&auto=format&fit=crop",
           "title": "Discarded Market Produce",
           "caption": "Shows piles of rotting fruits and vegetable leftovers at open market stalls, illustrating the raw organic waste burden before segregation."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?q=80&w=1000&auto=format&fit=crop",
-          "title": "Decomposing Food Scrap Heap",
-          "caption": "Highlights wet organic biomass rotting anaerobically, generating severe odor, breeding vectors, and potent methane emissions."
         }
       ]
     },
@@ -88,14 +63,14 @@
       ],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?q=80&w=1000&auto=format&fit=crop",
-          "title": "Compressed Bio-Fertilizer Granules",
-          "caption": "Close-up of actual organic fertilizer pellets, showcasing uniform granule structure designed for easy broadcast and soil blending."
-        },
-        {
           "url": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=1000&auto=format&fit=crop",
           "title": "Enriched Agricultural Soil",
           "caption": "Demonstrates rich, moisture-retaining soil fed by organic matter, supporting resilient root establishment and microbial health."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1656581417767-5eb8ecd8bf3c?q=80&w=1000&auto=format&fit=crop",
+          "title": "Compressed Bio-Fertilizer Granules",
+          "caption": "Close-up of actual organic fertilizer pellets, showcasing uniform granule structure designed for easy broadcast and soil blending."
         }
       ]
     },
