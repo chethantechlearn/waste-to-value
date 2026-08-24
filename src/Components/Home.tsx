@@ -234,7 +234,7 @@ export default function Home() {
                 {appData.documents.map((doc) => (
                   <a
                     key={doc.id}
-                    href={doc.path}
+                    href={`./${doc.path}`}
                     download={doc.filename}
                     className="slide-nav-btn"
                     style={{
